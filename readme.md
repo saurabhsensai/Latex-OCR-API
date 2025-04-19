@@ -23,8 +23,9 @@ This is a FastAPI-based API that converts images of mathematical equations into 
 ### Local Setup
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd equation-latex-api
+   git clone https://github.com/saurabhsensai/Latex-OCR-API.git
+   cd Latex-OCR-API
+
    ```
 
 2. **Install Dependencies**:
@@ -33,7 +34,7 @@ This is a FastAPI-based API that converts images of mathematical equations into 
    ```
 
 3. **Configure Environment Variables**:
-   - Copy `.env.example` to `.env` or create `.env`:
+   -create `.env`:
      ```text
      FRONTEND_URL=http://localhost:3000
      PORT=8000
@@ -50,6 +51,7 @@ This is a FastAPI-based API that converts images of mathematical equations into 
    - The server starts at `http://localhost:8000`.
    - Access the Swagger UI at `http://localhost:8000/docs` for interactive testing.
 
+## API Endpoints
 
 ### POST /v1/convert
 Converts an equation image to LaTeX code.
