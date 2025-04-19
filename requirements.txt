@@ -9,3 +9,4 @@ torchvision
 python-multipart
 uvicorn
 dotenv
+pydantic_settings

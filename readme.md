@@ -11,7 +11,7 @@ This is a FastAPI-based API that converts images of mathematical equations into 
 
 
 ## Prerequisites
-- **Python**: 3.11
+- **Python**: 3.10
 - **Docker**: For containerized deployment
 - **Postman**: For testing API endpoints
 - **Image**: A clear equation image (e.g., PNG/JPEG) for testing
