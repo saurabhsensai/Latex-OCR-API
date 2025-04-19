@@ -88,3 +88,7 @@ const result = await response.json();
 console.log(result.latex_code);
 ```
 - Ensure `FRONTEND_URL` in `.env` matches your Next.js app’s URL.
+
+## References
+
+This project uses concepts from [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR).
