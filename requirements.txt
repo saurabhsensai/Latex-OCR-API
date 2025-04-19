@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+pillow
+pix2tex
+torch
+torchvision
+python-multipart
+uvicorn
+dotenv
